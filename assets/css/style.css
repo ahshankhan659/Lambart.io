@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.img-bg{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.container{
+    width: 95%;
+    max-width: 1140px;
+}
+.head{
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.logo{
+    padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.logo p{
+  font-size: 23px;
+  color: white;
+  font-weight: 600;
+}
+.logo p span{
+    font-weight: 400;
+    color: rgb(108, 164, 23);
+}
+.logo a{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color:rgb(108, 164, 23) ;
+    border: 2px solid rgb(108, 164, 23) ;
+    transition: 0.4s ease;
+}
+.logo a:hover{
+    background-color:rgb(92, 139, 21) ;
+    border: 2px solid rgb(92, 139, 21);
+}
+.outlets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.outlets img{
+    padding: 10px 0;
+
+}
+.outlets h3{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 40px;
+    padding: 10px 0;
+    color: rgb(158, 111, 53);
+}
+.multiple-pages{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.content{
+    /* gap: 40px; */
+}
+.content img{
+    width: 230px;
+    height: 130px;
+    margin: 20px 0;
+    object-fit: cover;
+}
+.content h3{
+    color:rgb(158, 111, 53) ;
+    font-family:'Pinyon Script', cursive ;
+    font-size: 22px;
+    /* padding-top: 20px; */
+}
+.content p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
